@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tnas="http://www.apis-it.hr/fin/2012/types/f73" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Header/><soapenv:Body><tnas:RacunZahtjev xmlns:tnas="http://www.apis-it.hr/fin/2012/types/f73" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.apis-it.hr/fin/2012/types/f73/schema/FiskalizacijaSchema.xsd" Id="RacunZahtjev"><tnas:Zaglavlje><tnas:IdPoruke>5cd5580b-b537-4740-ac73-8dd061a19677</tnas:IdPoruke><tnas:DatumVrijeme>10.01.2013T23:07:55</tnas:DatumVrijeme></tnas:Zaglavlje><tnas:Racun><tnas:Oib>21327381700</tnas:Oib><tnas:USustPdv>true</tnas:USustPdv><tnas:DatVrijeme>10.01.2013T23:07:55</tnas:DatVrijeme><tnas:OznSlijed>P</tnas:OznSlijed><tnas:BrRac><tnas:BrOznRac>123456789</tnas:BrOznRac><tnas:OznPosPr>POSL1</tnas:OznPosPr><tnas:OznNapUr>12</tnas:OznNapUr></tnas:BrRac><tnas:Pdv><tnas:Porez><tnas:Stopa>25.00</tnas:Stopa><tnas:Osnovica>10.00</tnas:Osnovica><tnas:Iznos>2.50</tnas:Iznos></tnas:Porez><tnas:Porez><tnas:Stopa>10.00</tnas:Stopa><tnas:Osnovica>10.00</tnas:Osnovica><tnas:Iznos>1.00</tnas:Iznos></tnas:Porez><tnas:Porez><tnas:Stopa>0.00</tnas:Stopa><tnas:Osnovica>10.00</tnas:Osnovica><tnas:Iznos>0.00</tnas:Iznos></tnas:Porez></tnas:Pdv><tnas:Pnp><tnas:Porez><tnas:Stopa>3.00</tnas:Stopa><tnas:Osnovica>10.00</tnas:Osnovica><tnas:Iznos>0.30</tnas:Iznos></tnas:Porez></tnas:Pnp><tnas:OstaliPor><tnas:Porez><tnas:Naziv>Porez na luksuz</tnas:Naziv><tnas:Stopa>3.00</tnas:Stopa><tnas:Osnovica>10.00</tnas:Osnovica><tnas:Iznos>0.30</tnas:Iznos></tnas:Porez></tnas:OstaliPor><tnas:IznosOslobPdv>12.00</tnas:IznosOslobPdv><tnas:IznosMarza>13.00</tnas:IznosMarza><tnas:IznosNePodlOpor>100.00</tnas:IznosNePodlOpor><tnas:Naknade><tnas:Naknada><tnas:NazivN>Povratna naknada</tnas:NazivN><tnas:IznosN>1.00</tnas:IznosN></tnas:Naknada></tnas:Naknade><tnas:IznosUkupno>145.68</tnas:IznosUkupno><tnas:NacinPlac>K</tnas:NacinPlac><tnas:OibOper>01234567890</tnas:OibOper><tnas:ZastKod>1fdebe727cc93568e61ccd16e467a621</tnas:ZastKod><tnas:NakDost>false</tnas:NakDost><tnas:ParagonBrRac>123/458/5</tnas:ParagonBrRac><tnas:SpecNamj>Navedeno kao primjer</tnas:SpecNamj></tnas:Racun>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="#RacunZahtjev">
+            <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <DigestValue></DigestValue>
+            </Reference>
+            </SignedInfo>
+            <SignatureValue></SignatureValue>
+            <KeyInfo>
+            <X509Data>
+            <X509Certificate></X509Certificate>
+            </X509Data>
+            </KeyInfo>
+            </Signature></tnas:RacunZahtjev></soapenv:Body></soapenv:Envelope>
